@@ -1,0 +1,57 @@
+<style type="text/css">
+
+#heading{
+text-align:center;
+clear:both;
+}
+
+
+ *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+@media(min-width:992px){
+.colum-med-4{
+float:left;
+padding:10px;
+width:33.33%
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+.colum-sml-6{
+float:left;
+padding:10px;
+width:50%;
+}
+}
+
+@media(max-width:767px){
+.colum-exs-12{
+float:left;
+padding:10px;
+width:100%
+}
+}
+
+.top-title{
+float:right;
+text-align:center;
+background-color:blue;
+width:30%;
+height:40%;
+border:solid black 2px;
+}
+
+.ins-cont{
+padding:5px;
+clear:right;
+}
+.col-cont{
+background-color:grey;
+border:solid black 2px;
+}
+
+</style>
